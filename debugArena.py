@@ -43,20 +43,42 @@ def entCreator(primaryDoc):  # TODO: extend entcreator to fill out ent deets.
     entContainer = []
     for line in masterDoc:
         deps =line[7]
-
         deparray = deps.split(',')
-
-
-
-
-        entContainer.append(ent(entcreatorCounter, deparray, line[2], line[0]))
+        entContainer.append(ent(entcreatorCounter, deparray, line[2], line[0], line[1],line[3],line[4],line[5]))
         entcreatorCounter +=1
     for x in entContainer:
        print(x.gendepRep())
+    return entContainer
 
 
 
-entCreator(masterDoc)
+def edgeCSVwriter(ents, csvWriter):
+    print(ents)
+    for ent in ents:
+        if ent.deprep2:
+            for arc in ent.deprep2:
+                if arc:
+                    csvWriter.writerow(arc)
+
+
+
+
+def gephiPlayerWriter(ents, playercsvWriter):
+    for ent in ents:
+        playercsvWriter.writerow([ent.label,ent.publisher,ent.rroName,ent.level1, ent.level2,ent.level3])
+
+
+
+
+def sequence(masterDoc, csvWriter, playercsvWriter):
+    ents = entCreator(masterDoc)
+    edgeCSVwriter(ents, csvWriter)
+    gephiPlayerWriter(ents, playercsvWriter)
+
+
+
+
+sequence(masterDoc, csvWriter, playercsvWriter)
 
 
 

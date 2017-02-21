@@ -1,0 +1,38 @@
+Code,RR Publisher,RR Name,Level 1,Level 2,Level 3
+fitw,Freedom House,Freedom in the World,,,
+fitw_pr,Freedom House,Freedom in the World,Political Rights,,
+fitw_pr_1,Freedom House,Freedom in the World,,Electoral Process,
+fitw_pr_1_a,Freedom House,Freedom in the World,,,Is the head of government or other chief national authority elected through free and fair elections
+fitw_pr_1_b,Freedom House,Freedom in the World,,,Are the national legislative representatives elected through free and fair elections
+fitw_pr_1_c,Freedom House,Freedom in the World,,,Are the electoral laws and framework fair
+fitw_pr_2,Freedom House,Freedom in the World,,Political Pluralism and Participation,
+fitw_pr_2_a,Freedom House,Freedom in the World,,,"Do the people have the right to organize in different political parties or other competitive political groupings of their choice, and is the system open to the rise and fall of these competing parties or groupings"
+fitw_pr_2_b,Freedom House,Freedom in the World,,,Is there a significant opposition vote and a realistic opportunity for the opposition to increase its support or gain power through elections
+fitw_pr_2_c,Freedom House,Freedom in the World,,,"Are the people’s political choices free from domination by the military, foreign powers, totalitarian parties, religious hierarchies, economic oligarchies, or any other powerful group"
+fitw_pr_2_d,Freedom House,Freedom in the World,,,"Do cultural, ethnic, religious, or other minority groups have full political rights and electoral opportunities"
+fitw_pr_3,Freedom House,Freedom in the World,,Functioning of Government,
+fitw_pr_3_a,Freedom House,Freedom in the World,,,Do the freely elected head of government and national legislative representatives determine the policies of the government
+fitw_pr_3_b,Freedom House,Freedom in the World,,,Is the government free from pervasive corruption
+fitw_pr_3_c,Freedom House,Freedom in the World,,,"Is the government accountable to the electorate between elections, and does it operate with openness and transparency"
+fitw_pr_4,Freedom House,Freedom in the World,,"For traditional monarchies that have no parties or electoral process, does the system provide for genuine, meaningful consultation with the people, encourage public discussion of policy choices, and allow the right to petition the ruler",
+fitw_pr_5,Freedom House,Freedom in the World,,Is the government or occupying power deliberately changing the ethnic composition of a country or territory so as to destroy a culture or tip the political balance in favor of another group,
+fitw_cl,Freedom House,Freedom in the World,Civil Liberties,,
+fitw_cl_1,Freedom House,Freedom in the World,,Freedom of Expression and Belief,
+fitw_cl_1_a,Freedom House,Freedom in the World,,,Are there free and independent media and other forms of cultural expression
+fitw_cl_1_b,Freedom House,Freedom in the World,,,Are religious institutions and communities free to practice their faith and express themselves in public and private
+fitw_cl_1_c,Freedom House,Freedom in the World,,,"Is there academic freedom, and is the educational system free of extensive political indoctrination"
+fitw_cl_1_d,Freedom House,Freedom in the World,,,Is there open and free private discussion
+fitw_cl_2,Freedom House,Freedom in the World,,Associational and Organizational Rights,
+fitw_cl_2_a,Freedom House,Freedom in the World,,,"Is there freedom of assembly, demonstration, and open public discussion"
+fitw_cl_2_b,Freedom House,Freedom in the World,,,Is there freedom for nongovernmental organizations?
+fitw_cl_2_c,Freedom House,Freedom in the World,,,"Are there free trade unions and peasant organizations or equivalents, and is there effective collective bargaining? Are there free professional and other private organizations"
+fitw_cl_3,Freedom House,Freedom in the World,,Rule of Law,
+fitw_cl_3_a,Freedom House,Freedom in the World,,,Is there an independent judiciary
+fitw_cl_3_b,Freedom House,Freedom in the World,,,Does the rule of law prevail in civil and criminal matters? Are police under direct civilian control
+fitw_cl_3_c,Freedom House,Freedom in the World,,,"Is there protection from political terror, unjustified imprisonment, exile, or torture, whether by groups that support or oppose the system? Is there freedom from war and insurgencies"
+fitw_cl_3_d,Freedom House,Freedom in the World,,,"Do laws, policies, and practices guarantee equal treatment of various segments of the population"
+fitw_cl_4,Freedom House,Freedom in the World,,Personal Autonomy and Individual Rights,
+fitw_cl_4_a,Freedom House,Freedom in the World,,,"Do individuals enjoy freedom of travel or choice of residence, employment, or institution of higher education"
+fitw_cl_4_b,Freedom House,Freedom in the World,,,"Do individuals have the right to own property and establish private businesses? Is private business activity unduly influenced by government officials, the security forces, political parties/organizations, or organized crime"
+fitw_cl_4_c,Freedom House,Freedom in the World,,,"Are there personal social freedoms, including gender equality, choice of marriage partners, and size of family"
+fitw_cl_4_d,Freedom House,Freedom in the World,,,Is there equality of opportunity and the absence of economic exploitation
