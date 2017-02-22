@@ -1,10 +1,10 @@
 import csv
-
+import os
 resultArray = []
-masterDoc = open('master.csv') # this is main doc.
+
 resultDoc = open('results.csv', 'w') # this is where the results will go
 playerDoc = open('players.csv', 'w') # this is just a raw list of all entities
-masterDoc = csv.reader(masterDoc)
+
 csvWriter = csv.writer(resultDoc)
 playercsvWriter = csv.writer(playerDoc)
 
@@ -37,8 +37,7 @@ class ent(object):
         return self.deprep2
 
 
-def entCreator(primaryDoc):  # TODO: extend entcreator to fill out ent deets.
-
+def entCreator(masterDoc):  # TODO: extend entcreator to fill out ent deets.
     entcreatorCounter = 0
     entContainer = []
     for line in masterDoc:
@@ -62,11 +61,9 @@ def edgeCSVwriter(ents, csvWriter):
 
 
 
-
 def gephiPlayerWriter(ents, playercsvWriter):
     for ent in ents:
         playercsvWriter.writerow([ent.label,ent.publisher,ent.rroName,ent.level1, ent.level2,ent.level3])
-
 
 
 
@@ -77,11 +74,23 @@ def sequence(masterDoc, csvWriter, playercsvWriter):
 
 
 
-
-sequence(masterDoc, csvWriter, playercsvWriter)
-
+def loopThruDirectory():
 
 
+
+    os.chdir('/Users/old/Desktop/RRO coding/')
+    for filename in os.listdir('df'):
+        masterDoc = open('/Users/old/Desktop/RRO coding/df/' + filename)  # this is main doc.
+        masterDoc = csv.reader(masterDoc)
+        sequence(masterDoc, csvWriter, playercsvWriter)
+
+
+
+
+
+
+
+loopThruDirectory()
 
 
 
