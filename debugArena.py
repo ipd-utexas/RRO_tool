@@ -81,8 +81,10 @@ def loopThruDirectory():
     os.chdir('/Users/old/Desktop/RRO coding/')
     for filename in os.listdir('df'):
         masterDoc = open('/Users/old/Desktop/RRO coding/df/' + filename)  # this is main doc.
-        masterDoc = csv.reader(masterDoc)
-        sequence(masterDoc, csvWriter, playercsvWriter)
+        masterDoc1 = csv.reader(masterDoc)
+        sequence(masterDoc1, csvWriter, playercsvWriter)
+        masterDoc.close()
+
 
 
 
